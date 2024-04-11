@@ -10,7 +10,8 @@ conda:
 	pip install -r requirements.txt
 
 install:
-	poetry install
+	
+	
 
 lint:
 	poetry run pylint --rcfile=.pylintrc src
